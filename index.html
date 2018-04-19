@@ -14,15 +14,10 @@
   <script>
     var mv = new MV({
       el: document.getElementById('app'),
-      template: '<div>我的名字是：{{name}}， 今年{{age}}岁。</div>',
+      template: '<div>我的名字是：{{name}}</div>',
       data: function () {
         return {
-          name: 'xutao',
-          age: 27,
-          edu: {
-            middle: 'sy',
-            high: 'px'
-          }
+          name: 'xutao'
         }
       }
     })
